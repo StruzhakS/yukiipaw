@@ -1,0 +1,13 @@
+.headerBox {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  padding: 10px 20px;
+}
+.title {
+  color: white;
+}
+.inputHolder {
+  display: flex;
+}
