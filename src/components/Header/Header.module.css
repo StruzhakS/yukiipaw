@@ -1,13 +1,13 @@
 .headerBox {
   display: flex;
-  /* position: fixed; */
+  position: fixed;
   height: 50px;
-  /* width: 100/%; */
+  width: 100%;
   background-color: black;
   padding: 10px 80px;
   align-items: center;
   justify-content: space-between;
-  /* opacity: 0.8; */
+  opacity: 0.9;
 }
 /* .headerBox:hover,
 .headerBox:focus,
@@ -19,6 +19,9 @@
 }
 .inputHolder {
   display: flex;
+  position: fixed;
+  top: 20px;
+  right: 40px;
 }
 .btnToggle {
   position: fixed;
@@ -44,21 +47,20 @@
   background-repeat: no-repeat;
   cursor: pointer;
   transition: 1s;
+  border-radius: 5px;
 }
 
 .searchInput {
-  opacity: 0;
+  display: none;
   transition: 1s;
   /* visibility: hidden; */
 }
-/* .searchBackbtn {
+.searchBackbtn {
   display: none;
   transition: 1s;
-} */
-
-.searchIcon:hover .searchInput {
-  opacity: 1;
 }
-.searchIcon:hover {
-  border-color: red;
+
+.inputHolder:hover .searchInput {
+  display: block;
+  transition: 1s;
 }
