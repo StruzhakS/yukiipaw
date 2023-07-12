@@ -2,11 +2,9 @@ import { useSnapCarousel } from 'react-snap-carousel';
 import React from 'react';
 import newProductsItem from '../../products.json';
 import s from './BestSellers.module.css';
-import { orange } from '@mui/material/colors';
 
 const BestSellers = () => {
-  const { scrollRef, pages, activePageIndex, next, prev, goTo } =
-    useSnapCarousel();
+  const { scrollRef, pages, activePageIndex, goTo } = useSnapCarousel();
 
   return (
     <div style={{ padding: '60px' }}>

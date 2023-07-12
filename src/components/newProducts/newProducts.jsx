@@ -4,8 +4,7 @@ import newProductsItem from '../../products.json';
 
 import s from './newProduct.module.css';
 const NewProducts = () => {
-  const { scrollRef, pages, activePageIndex, next, prev, goTo } =
-    useSnapCarousel();
+  const { scrollRef, pages, activePageIndex, goTo } = useSnapCarousel();
   return (
     <div>
       <h2 style={{ textAlign: 'center' }}>Новинки</h2>
