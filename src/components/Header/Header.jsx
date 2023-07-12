@@ -3,8 +3,8 @@ import s from './Header.module.css';
 import yukkiLogo from '../../images/yukki-logo.jpg';
 import searchIcon from '../../images/search.jpg';
 import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
+// import Menu from '@material-ui/core/Menu';
+// import MenuItem from '@material-ui/core/MenuItem';
 import SideBar from 'components/SideBar/SideBar';
 
 const Header = () => {

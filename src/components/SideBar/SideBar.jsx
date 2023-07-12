@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { Link, BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import s from './SideBar.module.css';
-import { Button } from '@material-ui/core';
-import ButtonDrop from 'components/ButtonDrop/ButtonDrop';
+// import { Button } from '@material-ui/core';
+// import ButtonDrop from 'components/ButtonDrop/ButtonDrop';
 
 const SideBar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const toggleMenu = () => setIsMenuOpen(isOpen => !isOpen);
+  //   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  //   const toggleMenu = () => setIsMenuOpen(isOpen => !isOpen);
   return (
     <div className={s.sideBarBox}>
       {/* <button className={s.closeBtn}>Close</button> */}
