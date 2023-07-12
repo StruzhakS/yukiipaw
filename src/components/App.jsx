@@ -1,20 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './Header/Header';
 import NewProducts from './newProducts/newProducts';
+import BestSellers from './bestSellers/BestSellers';
+import Promotions from './Promotions/Promotions';
+import AnimalBlock from './AnimalBlock/AnimalBlock';
+import Footer from './Footer/Footer';
 
 export const App = () => {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Header />} />
-        {/* <Route path="/" element={<TrendingFilms />} />
-          <Route path="movies" element={<SearchMovies />} />
-          <Route path="movies/:id" element={<FilmInfo />}>
-          <Route path="cast" element={<Cast />} />
-          <Route path="reviews" element={<Reviews />} />
-          </Route>
-        <Route path="*" element={<PageNotFound />} /> */}
-      </Routes>
+      <Header />
       <div
         style={{
           display: 'flex',
@@ -28,6 +23,10 @@ export const App = () => {
         <h1 style={{ color: 'white' }}>Піклуємось про улюбленців разом</h1>
       </div>
       <NewProducts />
+      <BestSellers />
+      <Promotions />
+      <AnimalBlock />
+      <Footer />
     </>
   );
 };

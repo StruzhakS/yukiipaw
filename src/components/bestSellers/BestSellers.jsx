@@ -1,7 +1,8 @@
 import { useSnapCarousel } from 'react-snap-carousel';
 import React from 'react';
 import newProductsItem from '../../products.json';
-const NewProducts = () => {
+
+const BestSellers = () => {
   const { scrollRef, pages, activePageIndex, next, prev, goTo } =
     useSnapCarousel();
   return (
@@ -57,4 +58,4 @@ const NewProducts = () => {
   );
 };
 
-export default NewProducts;
+export default BestSellers;

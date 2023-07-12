@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Header.module.css';
 import yukkiLogo from '../../images/yukki-logo.jpg';
-import searchIcon from '../../images/Screenshot_17.jpg';
+import searchIcon from '../../images/search.jpg';
 const Header = () => {
   return (
     <div className={s.headerBox}>
