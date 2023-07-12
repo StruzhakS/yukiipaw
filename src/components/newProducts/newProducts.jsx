@@ -1,6 +1,8 @@
 import { useSnapCarousel } from 'react-snap-carousel';
 import React from 'react';
 import newProductsItem from '../../products.json';
+
+import s from './newProduct.module.css';
 const NewProducts = () => {
   const { scrollRef, pages, activePageIndex, next, prev, goTo } =
     useSnapCarousel();
@@ -9,9 +11,11 @@ const NewProducts = () => {
       <h2 style={{ textAlign: 'center' }}>Новинки</h2>
       <ul
         ref={scrollRef}
+        className={s.listNewProducts}
         style={{
           display: 'flex',
-          height: '400px',
+          height: '370px',
+          width: '100%',
           overflow: 'auto',
           scrollSnapType: 'x mandatory',
         }}
@@ -36,23 +40,49 @@ const NewProducts = () => {
           </li>
         ))}
       </ul>
-      <div>
-        {activePageIndex + 1} / {pages.length}
+      <div
+        style={{
+          display: 'flex',
+          // justifyContent: 'center',
+          alignItems: 'center',
+          // flexDirection: 'column',
+          width: '100px',
+          margin: '0 auto',
+        }}
+      >
+        {/* <span>
+          {activePageIndex + 1} / {pages.length}
+        </span> */}
+        {/* <button onClick={() => prev()}>Prev</button>
+        <button onClick={() => next()}>Next</button> */}
+        <ul style={{ display: 'flex', listStyle: 'none', gap: '16px' }}>
+          {pages.map((_, i) => (
+            <li key={i}>
+              <button
+                style={
+                  i === activePageIndex
+                    ? {
+                        opacity: 0.4,
+                        backgroundColor: 'orange',
+                        height: '16px',
+                        borderRadius: '50%',
+                        borderColor: 'transparent',
+                        outlineColor: 'transparent',
+                      }
+                    : {
+                        backgroundColor: 'orange',
+                        height: '16px',
+                        borderRadius: '50%',
+                        borderColor: 'transparent',
+                        outlineColor: 'transparent',
+                      }
+                }
+                onClick={() => goTo(i)}
+              ></button>
+            </li>
+          ))}
+        </ul>
       </div>
-      <button onClick={() => prev()}>Prev</button>
-      <button onClick={() => next()}>Next</button>
-      <ul style={{ display: 'flex', listStyle: 'none' }}>
-        {pages.map((_, i) => (
-          <li key={i}>
-            <button
-              style={i === activePageIndex ? { opacity: 0.5 } : {}}
-              onClick={() => goTo(i)}
-            >
-              {i + 1}
-            </button>
-          </li>
-        ))}
-      </ul>
     </div>
   );
 };

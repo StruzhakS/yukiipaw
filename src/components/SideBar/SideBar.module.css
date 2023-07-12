@@ -3,13 +3,14 @@
 }
 .sideBarBox {
   background-color: black;
-  position: absolute;
+  position: fixed;
   top: 70px;
   left: 0;
-  z-index: 1;
+  z-index: 20;
   color: white;
   width: 300px;
   height: 100vh;
+  opacity: 0.9;
 }
 
 .link {

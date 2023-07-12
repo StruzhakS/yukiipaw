@@ -6,7 +6,7 @@ const AnimalBlock = () => {
     <>
       <div>
         <h2>Animal ID - Захист і Догляд</h2>
-        <img src={picture} alt="dog qr" />
+        <img src={picture} alt="dog qr" width="100%" />
       </div>
       <iframe
         width="560"

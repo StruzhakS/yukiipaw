@@ -1,11 +1,12 @@
 .headerBox {
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   height: 50px;
-  width: 100%;
+  /* width: 100/%; */
   background-color: black;
-  padding: 10px 20px;
+  padding: 10px 80px;
   align-items: center;
+  justify-content: space-between;
   /* opacity: 0.8; */
 }
 /* .headerBox:hover,
@@ -18,4 +19,43 @@
 }
 .inputHolder {
   display: flex;
+}
+.btnToggle {
+  position: fixed;
+  z-index: 15;
+  top: 10px;
+  left: 20px;
+  width: 48px;
+  height: 48px;
+  background-image: url('../../images/yukki-logo.jpg');
+  background-size: cover;
+  outline-color: transparent;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchIcon {
+  width: 36px;
+  height: 36px;
+  background-image: url('../../images/search.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.searchInput {
+  /* display: none; */
+  transition: 1s;
+  visibility: hidden;
+}
+.searchBackbtn {
+  display: none;
+  transition: 1s;
+}
+
+.searchIcon:hover + .headerBox {
+  background-color: red;
 }

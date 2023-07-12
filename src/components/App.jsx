@@ -5,6 +5,7 @@ import BestSellers from './bestSellers/BestSellers';
 import Promotions from './Promotions/Promotions';
 import AnimalBlock from './AnimalBlock/AnimalBlock';
 import Footer from './Footer/Footer';
+import AnimalsFiltering from './AnimalsFiltering/AnimalsFiltering';
 // import SideBar from './SideBar/SideBar';
 // import { useState } from 'react';
 
@@ -27,6 +28,7 @@ export const App = () => {
         <h1 style={{ color: 'white' }}>Піклуємось про улюбленців разом</h1>
       </div>
       {/* <SideBar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} /> */}
+      <AnimalsFiltering />
       <NewProducts />
       <BestSellers />
       <Promotions />
