@@ -47,15 +47,18 @@
 }
 
 .searchInput {
-  /* display: none; */
+  opacity: 0;
   transition: 1s;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
-.searchBackbtn {
+/* .searchBackbtn {
   display: none;
   transition: 1s;
-}
+} */
 
-.searchIcon:hover + .headerBox {
-  background-color: red;
+.searchIcon:hover .searchInput {
+  opacity: 1;
+}
+.searchIcon:hover {
+  border-color: red;
 }
