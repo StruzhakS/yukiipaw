@@ -1,10 +1,18 @@
 .headerBox {
   display: flex;
+  position: fixed;
   height: 50px;
   width: 100%;
   background-color: black;
   padding: 10px 20px;
+  align-items: center;
+  /* opacity: 0.8; */
 }
+/* .headerBox:hover,
+.headerBox:focus,
+.headerBox:active {
+  opacity: 1;
+} */
 .title {
   color: white;
 }
