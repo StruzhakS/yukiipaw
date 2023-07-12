@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/yukiipaw/static/css/main.3d4547f8.css",
+    "main.js": "/yukiipaw/static/js/main.566b2da2.js",
+    "static/media/qr-dog.jpg": "/yukiipaw/static/media/qr-dog.8b8fa69417ddbcb3f2f4.jpg",
+    "index.html": "/yukiipaw/index.html",
+    "main.3d4547f8.css.map": "/yukiipaw/static/css/main.3d4547f8.css.map",
+    "main.566b2da2.js.map": "/yukiipaw/static/js/main.566b2da2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d4547f8.css",
+    "static/js/main.566b2da2.js"
+  ]
+}
