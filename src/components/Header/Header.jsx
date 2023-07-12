@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import s from './Header.module.css';
 import yukkiLogo from '../../images/yukki-logo.jpg';
 import searchIcon from '../../images/search.jpg';
-// import Button from '@material-ui/core/Button';
+import Button from '@material-ui/core/Button';
 // import Menu from '@material-ui/core/Menu';
 // import MenuItem from '@material-ui/core/MenuItem';
 import SideBar from 'components/SideBar/SideBar';
@@ -42,9 +42,9 @@ const Header = () => {
         <MenuItem onClick={handleClose}>My account</MenuItem>
         <MenuItem onClick={handleClose}>Logout</MenuItem>
       </Menu> */}
-        <button onClick={toggleMenu}>
+        <Button onClick={toggleMenu}>
           <img src={yukkiLogo} alt="yukki logo" width="48" height="48" />
-        </button>
+        </Button>
 
         <h2 className={s.title}>YukiPaw Зоомагазин</h2>
         <div className={s.searchWrapper}>
