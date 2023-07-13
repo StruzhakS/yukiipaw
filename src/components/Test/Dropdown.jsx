@@ -6,8 +6,6 @@ import Dropdown2 from './Dropdown2';
 
 export default function Dropdown({ heroText, secondaryText }) {
   const [active, setActive] = useState(false);
-  const [activeSec, setActiveSec] = useState(false);
-  const [activeSThrd, setActiveThrd] = useState(false);
 
   return (
     <li className={s.itemSideBar}>
