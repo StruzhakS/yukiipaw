@@ -5,19 +5,6 @@ import 'react-slideshow-image/dist/styles.css';
 import { Link, NavLink } from 'react-router-dom';
 
 const Promotions = () => {
-  // const divStyle = {
-  //   display: 'flex',
-  //   alignItems: 'center',
-  //   justifyContent: 'center',
-  //   // backgroundSize: 'cover',
-  //   height: '400px',
-  // };
-  // const spanStyle = {
-  //   padding: '20px',
-  //   background: '#efefef',
-  //   color: '#000000',
-  // };
-
   const itemPromotion = {
     name: 'Повідок-рулетка для улюбленців 5 м вагою до 15 кг з малюнком "Пончики"',
     description:
@@ -48,15 +35,7 @@ const Promotions = () => {
             <Slide>
               {slideImages.map((slideImage, index) => (
                 <li key={index}>
-                  {/* <div
-                style={{
-                  ...divStyle,
-                  backgroundImage: `url(${slideImage.url})`,
-                }}
-              > */}
-                  {/* <span style={spanStyle}>{slideImage.caption}</span> */}
                   <img src={slideImage.url} alt="" width="200px" />
-                  {/* </div> */}
                 </li>
               ))}
             </Slide>

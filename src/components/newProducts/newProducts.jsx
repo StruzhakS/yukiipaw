@@ -42,18 +42,11 @@ const NewProducts = () => {
       <div
         style={{
           display: 'flex',
-          // justifyContent: 'center',
           alignItems: 'center',
-          // flexDirection: 'column',
           width: '100px',
           margin: '0 auto',
         }}
       >
-        {/* <span>
-          {activePageIndex + 1} / {pages.length}
-        </span> */}
-        {/* <button onClick={() => prev()}>Prev</button>
-        <button onClick={() => next()}>Next</button> */}
         <ul style={{ display: 'flex', listStyle: 'none', gap: '16px' }}>
           {pages.map((_, i) => (
             <li key={i}>

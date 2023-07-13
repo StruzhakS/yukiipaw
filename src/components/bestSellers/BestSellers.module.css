@@ -1,13 +1,3 @@
-/* .listBestItems {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  height: 400px;
-  width: 100%;
-  overflow: auto;
-  scrollsnaptype: x mandatory;
-} */
-
 .listBest::-webkit-scrollbar {
   width: 0;
 }

@@ -1,7 +1,11 @@
 .listAnimal {
   display: flex;
   padding: 20px;
-  /* width: 100%; */
   justify-content: space-around;
   list-style: none;
+}
+
+.listItem:hover {
+  scale: 1.1;
+  transition: 250ms;
 }

@@ -11,32 +11,32 @@ import s from './AnimalsFiltering.module.css';
 const AnimalsFiltering = () => {
   return (
     <ul className={s.listAnimal}>
-      <li>
+      <li className={s.listItem}>
         <NavLink to={'/cat'}>
           <img src={catImg} alt="cat" width="100px" />
         </NavLink>
       </li>
-      <li>
+      <li className={s.listItem}>
         <NavLink to={'/dog'}>
           <img src={dogImg} alt="dog" width="100px" />
         </NavLink>
       </li>
-      <li>
+      <li className={s.listItem}>
         <NavLink to={'/bird'}>
           <img src={birdImg} alt="bird" width="100px" />
         </NavLink>
       </li>
-      <li>
+      <li className={s.listItem}>
         <NavLink to={'/fish'}>
           <img src={fishImg} alt="fish" width="100px" />
         </NavLink>
       </li>
-      <li>
+      <li className={s.listItem}>
         <NavLink to={'/rodent'}>
           <img src={rodentImg} alt="cat" width="100px" />
         </NavLink>
       </li>
-      <li>
+      <li className={s.listItem}>
         <NavLink to={'/reptilia'}>
           <img src={reptiliaImg} alt="cat" width="100px" />
         </NavLink>
