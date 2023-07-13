@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import s from './Header.module.css';
 import SideBar from 'components/SideBar/SideBar';
 import Modal from 'react-modal';
+import { FiSearch } from 'react-icons/fi';
 
 Modal.setAppElement('#root');
 
@@ -34,7 +35,9 @@ const Header = () => {
               className={s.searchInput}
               placeholder="Type to search"
             />
-            <button className={s.searchIcon} onClick={() => {}}></button>
+            <button className={s.searchIcon} onClick={() => {}}>
+              <FiSearch />
+            </button>
           </div>
           <span className={s.close} onClick={() => {}}></span>
         </div>
