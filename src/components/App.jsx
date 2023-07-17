@@ -18,6 +18,7 @@ export const App = () => {
           width: '100%',
           height: '200px',
           backgroundColor: 'black',
+          marginBottom: '50px',
         }}
       >
         <h1 style={{ color: 'white' }}>Піклуємось про улюбленців разом</h1>

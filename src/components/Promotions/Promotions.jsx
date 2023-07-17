@@ -27,7 +27,7 @@ const Promotions = () => {
   ];
 
   return (
-    <>
+    <div style={{ marginBottom: '50px' }}>
       <NavLink style={{ display: 'block', textAlign: 'center' }}>Акції</NavLink>
       <div style={{ display: 'flex' }}>
         <div>
@@ -51,7 +51,7 @@ const Promotions = () => {
           <p>Нова ціна: {itemPromotion.newPrice}</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

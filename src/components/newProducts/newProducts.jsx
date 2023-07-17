@@ -6,7 +6,7 @@ import s from './newProduct.module.css';
 const NewProducts = () => {
   const { scrollRef, pages, activePageIndex, goTo } = useSnapCarousel();
   return (
-    <div>
+    <div className={s.newProductsWrapper}>
       <h2 style={{ textAlign: 'center' }}>Новинки</h2>
       <ul
         ref={scrollRef}

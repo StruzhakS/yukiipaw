@@ -9,47 +9,12 @@
   justify-content: space-between;
   opacity: 0.9;
   z-index: 15;
+  left: 0;
+  top: 0;
 }
 .sideBarBox {
-  /* background-color: black; */
-  /* position: fixed; */
-  /* top: 70px; */
-  /* left: 0; */
-  /* z-index: 1000; */
-  /* color: white; */
   width: 300px;
-  /* height: 100%; */
-  /* opacity: 0.9;
-  animation-duration: 400ms;
-  animation-name: show;
-  overflow-y: auto;
-  padding: 30px 10px;
-  padding-bottom: 100px; */
 }
-
-/* @keyframes show {
-  0% {
-    left: -270px;
-  }
-
-  100% {
-    left: 0;
-  } */
-/* } */
-
-/* .sideBarBox {
-  position: relative;
-  left: -70px;
-  width: 100px;
-  height: 50px;
-  background: #000;
-  margin-top: 5px;
-  transition: left 0.2s linear;
-}
-
-.sideBarBox:hover {
-  left: 0px;
-} */
 
 .title {
   color: white;

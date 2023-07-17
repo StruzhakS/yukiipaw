@@ -7,7 +7,7 @@ const BestSellers = () => {
   const { scrollRef, pages, activePageIndex, goTo } = useSnapCarousel();
 
   return (
-    <div style={{ padding: '60px' }}>
+    <div style={{ padding: '60px', marginBottom: '50px' }}>
       <h2 style={{ textAlign: 'center' }}>Хіти продажів</h2>
       <ul
         style={{

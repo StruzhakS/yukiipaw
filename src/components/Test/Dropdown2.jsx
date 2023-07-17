@@ -3,12 +3,13 @@ import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
 import s from '../SideBar/SideBar.module.css';
 import Dropdown3 from './Dropdown3';
+import { nanoid } from 'nanoid';
 
 export default function Dropdown2({ el }) {
   const [activeSec, setActiveSec] = useState(false);
 
   return (
-    <li className={s.itemSideBar}>
+    <li key={nanoid()} className={s.itemSideBar}>
       <div className={s.linkWrapper} onClick={() => setActiveSec(!activeSec)}>
         <p>{activeSec ? <FiChevronUp /> : <FiChevronDown />} </p>
         <NavLink className={s.link} to={'/'}>
@@ -22,7 +23,7 @@ export default function Dropdown2({ el }) {
               return <Dropdown3 el={el} />;
             }
             return (
-              <li key={i} className={s.itemSideBar}>
+              <li key={nanoid()} className={s.itemSideBar}>
                 <NavLink className={s.link}>{el}</NavLink>
               </li>
             );

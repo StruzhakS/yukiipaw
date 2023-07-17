@@ -3,9 +3,9 @@ import React from 'react';
 import picture from '../../images/qr-dog.jpg';
 const AnimalBlock = () => {
   return (
-    <>
-      <div>
-        <h2>Animal ID - Захист і Догляд</h2>
+    <div style={{ marginBottom: '50px' }}>
+      <div style={{ marginBottom: '50px' }}>
+        <h2 style={{ marginBottom: '15px' }}>Animal ID - Захист і Догляд</h2>
         <img src={picture} alt="dog qr" width="100%" />
       </div>
       <iframe
@@ -17,7 +17,7 @@ const AnimalBlock = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    </>
+    </div>
   );
 };
 

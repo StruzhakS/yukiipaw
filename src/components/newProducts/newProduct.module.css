@@ -1,3 +1,7 @@
 .listNewProducts::-webkit-scrollbar {
   width: 0;
 }
+
+.newProductsWrapper {
+  margin-bottom: 50px;
+}
