@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yukiipaw/static/css/main.1d1ad770.css",
-    "main.js": "/yukiipaw/static/js/main.6643c892.js",
+    "main.css": "/yukiipaw/static/css/main.e677a6ae.css",
+    "main.js": "/yukiipaw/static/js/main.41d7f47d.js",
     "static/media/qr-dog.jpg": "/yukiipaw/static/media/qr-dog.8b8fa69417ddbcb3f2f4.jpg",
     "static/media/reptilia-2.svg": "/yukiipaw/static/media/reptilia-2.e753ecada20fc626f094ff8240a4eae7.svg",
     "static/media/cat-2.svg": "/yukiipaw/static/media/cat-2.31b5b43db3d72039baa4ffe65d721574.svg",
@@ -10,11 +10,11 @@
     "static/media/mouse-2.svg": "/yukiipaw/static/media/mouse-2.7e6bbbbf35a89652292a72c75335a279.svg",
     "index.html": "/yukiipaw/index.html",
     "static/media/bird-2.svg": "/yukiipaw/static/media/bird-2.f7b6fcc7305aed06e6000ea35f2588f8.svg",
-    "main.1d1ad770.css.map": "/yukiipaw/static/css/main.1d1ad770.css.map",
-    "main.6643c892.js.map": "/yukiipaw/static/js/main.6643c892.js.map"
+    "main.e677a6ae.css.map": "/yukiipaw/static/css/main.e677a6ae.css.map",
+    "main.41d7f47d.js.map": "/yukiipaw/static/js/main.41d7f47d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d1ad770.css",
-    "static/js/main.6643c892.js"
+    "static/css/main.e677a6ae.css",
+    "static/js/main.41d7f47d.js"
   ]
 }
